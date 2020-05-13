@@ -34,6 +34,7 @@ const FileList = ({ files, onFileClick, onSaveEdit, onFileDelete }) => {
         files.map(file => (
           <li
             className="list-group-item bg-light row d-flex align-items-center file-list-item"
+            style={{ margin: 0 }}
             key={ file.id }
           >
             {

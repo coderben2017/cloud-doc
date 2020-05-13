@@ -33,7 +33,7 @@ const FileSearch = ({ title, onFileSearch }) => {
   return (
     <div
       className="alert alert-primary d-flex justify-content-between
-        align-items-center"
+        align-items-center mb-0"
     >
       {
         !inputActive && (

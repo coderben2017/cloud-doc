@@ -23,7 +23,7 @@ function App() {
   ]
   
   return (
-    <div className="container-fluid">
+    <div className="container-fluid px-0">
       <div className="row">
         <div className="col-md-4">
           <FileSearch
